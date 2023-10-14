@@ -1,3 +1,9 @@
 from django.shortcuts import render
+from aplic.models import Produto
 
-# Create your views here.
+def index(request):
+    obj=Produto.objects.all()
+    context={
+        'obj':obj,
+        }
+    return render(request, 'index.html', context)

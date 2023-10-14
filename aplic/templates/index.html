@@ -9,8 +9,19 @@
     </head>
 
     <body>
-        <div class='px-6 py-6'>
-            Página Principal
+        <h1>Mercado Dibre</h1>
+
+        <div class='container'>
+            {% for x in obj %}
+            <div class='row'>
+                <div class='com-lg-5 col-mg-5 col-12'>
+                    {{x.nomeProduto}}
+                </div>
+                <div class='com-lg-5 col-mg-5 col-12'>
+                    {{x.valorProduto}}
+                </div>
+            {% endfor %}
+            </div>
         </div>
     </body>
 </html>
