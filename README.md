@@ -1,4 +1,4 @@
 # sce
-Sistema de postagens, referente ao projeto de extensão universtiária, "Associação HUG (2022-2023 / 1º ao 4º período)"
+Sistema de Controle de E-commerce
 
-Projeto web acadêmico da disciplina "Desenvolvimento de Aplicações para Web", do curso de sistemas de informação - FMG (Faculdade Metodista Granbery)
+Projeto web de um e-commerce de artigos esportivos fictício desenvolvido para fins acadêmicos na disciplina 'Desenvolvimento de Aplicações para Web', do curso de Sistemas de Informação na FMG (Faculdade Metodista Granbery), utilizando o framework Django do Python.
